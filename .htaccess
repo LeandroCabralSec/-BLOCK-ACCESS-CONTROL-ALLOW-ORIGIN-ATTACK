@@ -1,0 +1,5 @@
+# BLOQUEAR ATAQUE DE ACCESS-CONTROL-ALLOW-ORIGIN #
+# BLOCK ACCESS-CONTROL-ALLOW-ORIGIN ATTACK #
+<IfModule mod_headers.c>
+    Header set Referrer-Policy "same-origin"
+</IfModule>
